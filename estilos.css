@@ -200,7 +200,7 @@
   }
 
   .Acerca_de {
-    background: url(imag/fondo_2.png)no-repeat;
+    background: url(../imagenes/fondo_2.png)no-repeat;
     background-size: cover;
     background-position: center;
     padding-bottom: 3rem;
@@ -248,7 +248,7 @@
   .suscribete {
     text-align: center;
     padding: 5rem 1rem;
-    background: url(imag/fondo_sub.png) no-repeat;
+    background: url(../imagenes/fondo_sub.png) no-repeat;
     background-size: cover;
     background-position: center;
   }
@@ -510,7 +510,7 @@
 
   .footer{
     padding-top: 3rem;
-    background: url(imag/footer-fondo.png) no-repeat;
+    background: url(../imagenes/footer-fondo.png) no-repeat;
     background-size: cover;
     background-position: center;
   }
@@ -684,4 +684,115 @@
     .Acerca_de .columna .content .bottons a:last-child {
       margin: 1rem 0;
     }
+  }
+  .Acerca_de {
+    background: url(imagenes/fondo_2.png)no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 3rem;
+
+  }
+
+  .Acerca_de .columna {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+  }
+
+  .Acerca_de .columna .image {
+    flex: 1 1 40rem;
+
+  }
+
+  .Acerca_de .columna .image img {
+    width: 100%;
+  }
+
+  .Acerca_de .columna .content {
+    flex: 1 1 40rem;
+  }
+
+  .Acerca_de .columna .content h3 {
+    font-size: 3rem;
+    color: #333;
+
+  }
+
+  .Acerca_de .columna .content p {
+    font-size: 1.5rem;
+    color: #666;
+    padding: 1rem 0;
+  }
+
+  .Acerca_de .columna .content .bottons a:last-child {
+    margin-left: 2rem;
+  }
+  .heading {
+    background-color: rgb(176, 240, 235);
+    position: sticky;
+    top : 30px;
+    height: 60px;
+    box-shadow: 5px 5px 10px
+  }
+  .opiniones .caja-contenedor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+  }
+
+  .opiniones .caja-contenedor .caja {
+    background: white;
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+    position: relative;
+    border: .1rem solid rgba(0, 0, 0, .2);
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+    flex: 1 1 30rem;
+    border-radius: .5rem;
+
+
+  }
+
+  .opiniones .caja-contenedor .caja .fa-atom {
+    position: absolute;
+    top: 1rem;
+    right: 2rem;
+    font-size: 8rem;
+    color: var(--limon);
+    opacity: .3;
+
+  }
+
+  .opiones .caja-contenedor .caja .user {
+    border-radius: 50%;
+    object-fit: cover;
+    height: 8rem;
+    width: 8rem;
+    margin-top: 2rem;
+  }
+
+  .opiniones .caja-contenedor .caja .user h3 {
+    color: var(--verde);
+    font-size: 2rem;
+  }
+
+  .opiniones .caja-contenedor .caja .user .stars i {
+    color: var(--verde);
+    font-size: 1.5rem;
+    padding: 1rem 0;
+
+  }
+
+  .opiniones .caja-contenedor .caja .comentarios {
+    color: #666;
+    font-size: 1.5rem;
+    padding: 1rem;
+
+
+
   }
